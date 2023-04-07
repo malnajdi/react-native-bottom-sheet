@@ -15,7 +15,7 @@ const BackdropExample = () => {
   const bottomSheetRef = useRef<BottomSheet>(null);
 
   // variables
-  const snapPoints = useMemo(() => ['25%', '50%'], []);
+  const snapPoints = useMemo(() => ['50%'], []);
 
   // callbacks
   const handleTogglePressBehavior = useCallback(() => {
